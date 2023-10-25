@@ -13,18 +13,18 @@ entity maquina_de_refrigerante is
         -- sinal de entrada de moeda, de aperto de b1 e de aperto do b2
         m, b1, b2: in std_logic;
         
-        -- preço do refrigerante
+		  -- preço do refrigerante
         r1, r2: in std_logic_vector(7 downto 0);
         
         -- valor da moeda
         v: in std_logic_vector(7 downto 0);
-        
-		  
+ 		  
 		  B_selected :  out std_logic_vector(1 downto 0);
 		  P_selected : out std_logic_vector(7 downto 0);
-        
+		  total_acumulado: out std_logic_vector(7 downto 0);
 		  -- saídas
-        f1,f2: out std_logic
+        f1,f2,nt : out std_logic;
+		  vt : out std_logic_vector(7 downto 0)
 	 );
 end entity maquina_de_refrigerante;
 
@@ -39,11 +39,13 @@ architecture soda_machine of maquina_de_refrigerante is
             
             tot_maior_p, tot_igual_p, tot_menor_p: in std_logic;
 				
-				d     : out std_logic;
+				d,nt     : out std_logic;
             tot_ld: out std_logic;
             tot_clr: out std_logic;
             b_load: out std_logic;
-            b_clear: out std_logic
+            b_clear: out std_logic;
+			  	troco_ld: out std_logic;
+            troco_clr: out std_logic
         );
     end component bc;
 
@@ -53,9 +55,12 @@ architecture soda_machine of maquina_de_refrigerante is
             r1, r2: in std_logic_vector(7 downto 0);
             v: in std_logic_vector(7 downto 0);
             b1, b2: in std_logic;
+				
 				B_selected : out std_logic_vector(1 downto 0);
 				P_selected : out std_logic_vector(7 downto 0);
-            
+				total_acumulado: out std_logic_vector(7 downto 0);
+				vt: out std_logic_vector(7 downto 0);
+				
 				d     : in std_logic;
 				f1,f2 : out std_logic;
             
@@ -64,17 +69,25 @@ architecture soda_machine of maquina_de_refrigerante is
             tot_ld: in std_logic;
             tot_clr: in std_logic;
             b_load: in std_logic;
-            b_clear: in std_logic
+            b_clear: in std_logic;
+				troco_ld: in std_logic;
+            troco_clr: in std_logic
         );
     end component bo;
 
     signal tot_ld: std_logic;
     signal tot_clr: std_logic;
-    signal b_load: std_logic;
-    signal b_clear: std_logic;
+    
+	 signal b_load: std_logic;
+	 signal b_clear: std_logic;
+	 
+	 signal troco_ld: std_logic;
+	 signal troco_clr: std_logic;
+	 
     signal tot_maior_p: std_logic;
     signal tot_igual_p: std_logic;
     signal tot_menor_p: std_logic;
+	 
 	 signal d :std_logic;
 
 begin
@@ -87,11 +100,14 @@ begin
         tot_maior_p => tot_maior_p,
         tot_igual_p => tot_igual_p,
         tot_menor_p => tot_menor_p,
-		  d => d,
+		    d => d,
+		    nt=>nt,
         tot_ld => tot_ld,
         tot_clr => tot_clr,
         b_load => b_load,
-        b_clear => b_clear
+        b_clear => b_clear,
+		  troco_ld => troco_ld,
+		  troco_clr => troco_clr
     );
 	 
     machine_datapath: bo port map(
@@ -104,7 +120,8 @@ begin
 
 		  B_selected => B_selected,
 		  P_selected => P_selected,
-		  
+		  total_acumulado => total_acumulado,
+		  vt => vt,
 		  d => d,
 		  f1 => f1,
 		  f2 => f2,
@@ -115,7 +132,8 @@ begin
         tot_ld => tot_ld,
         tot_clr => tot_clr,
         b_load => b_load,
-        b_clear => b_clear
+        b_clear => b_clear,
+		  troco_ld => troco_ld,
+		  troco_clr => troco_clr
     );
-    
 end architecture soda_machine;

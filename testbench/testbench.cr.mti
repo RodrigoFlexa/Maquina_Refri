@@ -1,0 +1,103 @@
+C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Mux.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Mux.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Mux
+-- Compiling architecture Behavioral of Mux
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bc.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bc.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity bc
+-- Compiling architecture comportamento of bc
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity registrador_8
+-- Compiling architecture behavior of registrador_8
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_2_bits.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_2_bits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity registrador_2_bits
+-- Compiling architecture main of registrador_2_bits
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/maquina_de_refrigerante.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/maquina_de_refrigerante.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity maquina_de_refrigerante
+-- Compiling architecture soda_machine of maquina_de_refrigerante
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/concatenador.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/concatenador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity concatenador
+-- Compiling architecture rtl of concatenador
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/demultiplexador.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/demultiplexador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity demultiplexador
+-- Compiling architecture Behavioral of demultiplexador
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Somador.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Somador.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Somador
+-- Compiling architecture rtl of Somador
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Subtrator.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Subtrator.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Subtrator
+-- Compiling architecture rtl of Subtrator
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/comp8bit.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/comp8bit.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity comp8bit
+-- Compiling architecture model of comp8bit
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8_bits.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8_bits.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity registrador_8_bits
+-- Compiling architecture main of registrador_8_bits
+
+} {} {}} C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bo.vhd {1 {vcom -work work -2002 -explicit C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bo.vhd
+Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package std_logic_textio
+-- Compiling entity bo
+-- Compiling architecture union of bo
+
+} {} {}}

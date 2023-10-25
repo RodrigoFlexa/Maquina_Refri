@@ -12,12 +12,16 @@ entity bo is
 			clk     : in std_logic;
 			r1,r2   : in std_logic_vector(7 downto 0);
 			v       : in std_logic_vector(7 downto 0);
+			
 			b1,b2 : in std_logic;
 			
 			B_selected : out std_logic_vector(1 downto 0);
 			P_selected : out std_logic_vector(7 downto 0);
+			total_acumulado: out std_logic_vector(7 downto 0);
+			vt: out std_logic_vector(7 downto 0);
 			
 			d : in std_logic;
+			
 			f1,f2 : out std_logic;
 			tot_maior_p, tot_igual_p, tot_menor_p : out std_logic;
 			
@@ -25,8 +29,10 @@ entity bo is
 			tot_clr :  in std_logic;
 			
 			b_load   : in std_logic;
-			b_clear  : in std_logic
+			b_clear  : in std_logic;
 			
+			troco_ld: in std_logic;
+         troco_clr: in std_logic
 			);
 end bo;
 
@@ -96,9 +102,9 @@ end bo;
 
       component Subtrator is
         port (
-            A	   : in  std_logic_vector(7 downto 0);
-            B	   : in  std_logic_vector(7 downto 0);
-            Sub   : out  std_logic_vector(7 downto 0) 
+					A	   : in  std_logic_vector(7 downto 0);
+					B	   : in  std_logic_vector(7 downto 0);
+					Sub   : out  std_logic_vector(7 downto 0)
         ) ;
       end component;
 
@@ -108,30 +114,35 @@ end bo;
        signal  r1_r2       : std_logic_vector(7 downto 0);
 		
 		 --sinal da saída do total em 8 bits
-		 SIGNAL tot : STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 SIGNAL tot, troco : STD_LOGIC_VECTOR(7 DOWNTO 0);
 		 --sinal da soma em 8 bits
-		 SIGNAL soma : STD_LOGIC_VECTOR(7 DOWNTO 0);
-				
+		 SIGNAL soma_tot_v : STD_LOGIC_VECTOR(7 DOWNTO 0);
+		 
+		 SIGNAL sub_tot_v : STD_LOGIC_VECTOR(7 DOWNTO 0);
 	
        begin
 		  concatenador_b1_b2 : concatenador port map (b1, b2, concat_out);
 		  
-		  registrador_bit  : registrador_2_bits port map (clk, b_clear , b_load, concat_out, b_out);
+		  registrador_botao  : registrador_2_bits port map (clk, b_clear , b_load, concat_out, b_out);
 		
-		  soma_acumulacao    : Somador port map (V,tot,soma);
+		  soma_acumulacao    : Somador port map (V,tot,soma_tot_v);
 		  
-		  soma_r1_r2       : Somador port map (r1,r2,r1_r2);
-		 
+        soma_r1_r2       : Somador port map (r1,r2,r1_r2);
+                                                    
 		  preco_refrigerante   : Mux port map (r1,r2, r1_r2, b_out, Mux_out);
 		  
 		  demux   : demultiplexador port map (b_out ,d, f1, f2);
 		  
-		  registrador_tot    : registrador_8_bits port map (clk, tot_clr, tot_ld, soma, tot);
+		  registrador_tot    : registrador_8_bits port map (clk, tot_clr, tot_ld, soma_tot_v, tot);
+	
+		  comp_8             : comp8bit port map (tot,Mux_out,tot_igual_p, tot_maior_p, tot_menor_p);
 		  
-		  comp_8             : comp8bit port map (tot,Mux_out, tot_igual_p, tot_maior_p, tot_menor_p);
-			
-			
+		  subtrator_troco      : Subtrator port map (tot,  Mux_out, sub_tot_v);	
+		  
+		  registrador_troco   : registrador_8_bits port map (clk, troco_clr, troco_ld, sub_tot_v, troco);
+		  
 		  B_selected <= b_out;
 		  P_selected <= Mux_out;
-		  
+		  total_acumulado <= tot;
+		  vt <= troco;
     end union; 

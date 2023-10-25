@@ -6,20 +6,22 @@ entity bc is
             clk      : in std_logic;
             rst      : in std_logic;
             
-				b1,b2, m : in std_logic;
+			     	b1,b2, m : in std_logic;
 			   
-				tot_maior_p, tot_igual_p, tot_menor_p : in std_logic;
+			    	 tot_maior_p, tot_igual_p, tot_menor_p : in std_logic;
 				
-				d : out std_logic;
+				    d,nt : out std_logic;
             tot_ld   : out std_logic;
             tot_clr  : out std_logic;	
-		      b_load   : out std_logic;
-            b_clear  : out std_logic
+		        b_load   : out std_logic;
+            b_clear  : out std_logic;
+			     	troco_ld: out std_logic;
+            troco_clr: out std_logic
 	);
 end bc;
 
 architecture comportamento of bc is
-	type tipo_estado is (inicio, esperar_botao, esperar_moeda,add, disp);
+	type tipo_estado is (inicio, esperar_botao, esperar_moeda,add, disp,calcula_troco,libera_troco);
 	signal prox_estado, estado : tipo_estado := inicio;
 	
 begin
@@ -42,7 +44,7 @@ begin
 				if m = '1' then
 					prox_estado <= add;
 					
-				elsif ((tot_maior_p = '1')) then
+				elsif ((tot_maior_p = '1') or (tot_igual_p = '1')) then
 					prox_estado <= disp;
 				else 
 					prox_estado <= esperar_moeda;
@@ -52,6 +54,16 @@ begin
 				prox_estado <= esperar_moeda;
 				
 			when  disp =>
+				if (tot_maior_p = '1') then 
+					prox_estado <= calcula_troco;
+				else
+					prox_estado <= inicio;
+				end if;
+			
+			when  calcula_troco =>			
+				prox_estado <= libera_troco;
+				
+			when  libera_troco =>			
 				prox_estado <= inicio;
 				
 		end case;
@@ -76,7 +88,10 @@ begin
 				  tot_clr <= '1'  ;
 				  b_load  <= '0'  ;  
 				  b_clear <= '1'  ; 
+				  troco_ld <= '0';
+				  troco_clr <= '1'  ;
 				  d <= '0';
+				  nt<='0';
 
 				
 			 when esperar_botao => 
@@ -84,29 +99,61 @@ begin
 				  tot_clr <= '0'  ;
 				  b_load  <= '1'  ;  
 				  b_clear <= '0'  ; 
+				  troco_ld <= '0';
+				  troco_clr<= '0';
 				  d <= '0';
+				  nt<='0';				  
 				
 			 when  esperar_moeda =>
 				  tot_ld  <= '0'  ;   
 				  tot_clr <= '0'  ;
 				  b_load  <= '0'  ;  
 				  b_clear <= '0'  ; 
+				  troco_ld <= '0';
+				  troco_clr<= '0';
 				  d <= '0';
-	
+				  nt<='0';	
+
 			 when  add =>
 				  tot_ld  <= '1'  ;   
 				  tot_clr <= '0'  ;
 				  b_load  <= '0'  ;  
 				  b_clear <= '0'  ; 
+				  troco_ld <= '0';
+				  troco_clr<= '0';
 				  d <= '0';
-				
-			 when disp =>
+				  nt<='0';				
+			
+			when disp =>
 				  tot_ld  <= '0'  ;   
 				  tot_clr <= '0'  ;
 				  b_load  <= '0'  ;  
 				  b_clear <= '0'  ; 
+				  troco_ld <= '0';
+				  troco_clr<= '0';
 				  d <= '1';
-				 
+				  nt<='0';		
+				  
+			when calcula_troco =>
+				  tot_ld  <= '0'  ;   
+				  tot_clr <= '0'  ;
+				  b_load  <= '0'  ;  
+				  b_clear <= '0'  ;
+				  troco_ld <= '1';
+				  troco_clr<= '0'; 
+				  d <= '0';
+				  nt<= '1';		
+				  
+			when libera_troco =>
+				  tot_ld  <= '0'  ;   
+				  tot_clr <= '0'  ;
+				  b_load  <= '0'  ;  
+				  b_clear <= '0'  ;
+				  troco_ld <= '0';
+				  troco_clr<= '0'; 
+				  d <= '0';
+				  nt<= '0';
+				  
 		end case;
 	end process;
 end architecture;

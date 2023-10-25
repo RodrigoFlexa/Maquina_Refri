@@ -1,0 +1,176 @@
+Dinheiro Inserido: 0
+Registrador do Botao: '0''0'
+Preco selecionado: 0
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '0''0'
+Preco selecionado: 0
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 25
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 25
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 25
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 25
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 25
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 50
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 50
+R1: 20
+R2: 15
+F1: '1'
+F2: '1'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 50
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '1'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '1''1'
+Preco selecionado: 35
+Acumulado: 50
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 15
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '0''0'
+Preco selecionado: 0
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '0''0'
+Preco selecionado: 0
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '0''0'
+Preco selecionado: 0
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 
+Dinheiro Inserido: 0
+Registrador do Botao: '0''0'
+Preco selecionado: 0
+Acumulado: 0
+R1: 20
+R2: 15
+F1: '0'
+F2: '0'
+NT: '0'
+VT: 0
+ 

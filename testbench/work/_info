@@ -1,0 +1,493 @@
+m255
+K3
+13
+cModel Technology
+dC:\Users\Demop\OneDrive\Documentos\Maquina_Refri
+Ebc
+Z0 w1698265205
+Z1 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z2 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z3 dC:\Users\Demop\OneDrive\Documentos\Maquina_Refri\testbench
+Z4 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bc.vhd
+Z5 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bc.vhd
+l0
+L4
+VnTRVhcfV0Qd`<;Y=4iViF1
+Z6 OV;C;10.1d;51
+32
+Z7 !s108 1698265207.562000
+Z8 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bc.vhd|
+Z9 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bc.vhd|
+Z10 o-work work -2002 -explicit -O0
+Z11 tExplicit 1
+!s100 Vea[P]8J^KGCDbOC4M4N?2
+!i10b 1
+Acomportamento
+R1
+R2
+DEx4 work 2 bc 0 22 nTRVhcfV0Qd`<;Y=4iViF1
+l27
+L23
+V?3Y1XIOiRG^ljV4eDA0z81
+R6
+32
+R7
+R8
+R9
+R10
+R11
+!s100 g?On05GPU@jFXlDXh3`@C3
+!i10b 1
+Ebo
+Z12 w1698261970
+Z13 DPx4 ieee 16 std_logic_textio 0 22 ?Il0a149GV276[?[UMDWh2
+Z14 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R1
+R2
+R3
+Z15 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bo.vhd
+Z16 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bo.vhd
+l0
+L9
+V01cVcSzVAMk6f6zAeH<G^3
+R6
+32
+Z17 !s108 1698265207.593000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bo.vhd|
+Z19 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/bo.vhd|
+R10
+R11
+!s100 0a?eef@PPcQ9eG?99A`CR3
+!i10b 1
+Aunion
+R13
+R14
+R1
+R2
+DEx4 work 2 bo 0 22 01cVcSzVAMk6f6zAeH<G^3
+l123
+L39
+V2SfB;HXnAgB71=lDKYm822
+R6
+32
+R17
+R18
+R19
+R10
+R11
+!s100 RjL10JOHMjlYXB<CoYZ@@2
+!i10b 1
+Ecomp8bit
+Z20 w1698168104
+R1
+R2
+R3
+Z21 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/comp8bit.vhd
+Z22 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/comp8bit.vhd
+l0
+L4
+VKkzelGVYEDCi=b@ia4i1?3
+R6
+32
+Z23 !s108 1698265207.628000
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/comp8bit.vhd|
+Z25 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/comp8bit.vhd|
+R10
+R11
+!s100 LAaTN<:`>>dV8>:FY>k;F3
+!i10b 1
+Amodel
+R1
+R2
+DEx4 work 8 comp8bit 0 22 KkzelGVYEDCi=b@ia4i1?3
+l13
+L12
+V83Wk6^=[T9]iCcRT?W25F2
+R6
+32
+R23
+R24
+R25
+R10
+R11
+!s100 U?m?0Dk_1jnIa?>3O>2fl2
+!i10b 1
+Econcatenador
+Z26 w1698177732
+R14
+R1
+R2
+R3
+Z27 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/concatenador.vhd
+Z28 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/concatenador.vhd
+l0
+L5
+V_b>05A5DYN5FNK4RAgeJb2
+R6
+32
+Z29 !s108 1698265207.660000
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/concatenador.vhd|
+Z31 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/concatenador.vhd|
+R10
+R11
+!s100 `zH^bFd^WoPi<e^f@6m4P1
+!i10b 1
+Artl
+R14
+R1
+R2
+DEx4 work 12 concatenador 0 22 _b>05A5DYN5FNK4RAgeJb2
+l15
+L14
+V;DIWTMWR36@S6K2UohI2H3
+R6
+32
+R29
+R30
+R31
+R10
+R11
+!s100 S;[8=2eB53f=mmFePomon2
+!i10b 1
+Edemultiplexador
+Z32 w1698193126
+R1
+R2
+R3
+Z33 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/demultiplexador.vhd
+Z34 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/demultiplexador.vhd
+l0
+L4
+VQa6hVk`_FgOJLG[Tl1Bob1
+R6
+32
+Z35 !s108 1698265207.694000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/demultiplexador.vhd|
+Z37 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/demultiplexador.vhd|
+R10
+R11
+!s100 No>EaBcEQUFg2^6]2fT5X0
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 15 demultiplexador 0 22 Qa6hVk`_FgOJLG[Tl1Bob1
+l13
+L12
+V>9ko19F9;jQMB9hTedKTW3
+R6
+32
+R35
+R36
+R37
+R10
+R11
+!s100 ^lo>aG31^2]V1ecG496`f2
+!i10b 1
+Emaquina_de_refrigerante
+Z38 w1698264049
+R14
+R1
+R2
+R3
+Z39 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/maquina_de_refrigerante.vhd
+Z40 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/maquina_de_refrigerante.vhd
+l0
+L5
+VmE<n9=FZHU@HK=AUd1S:^3
+R6
+32
+Z41 !s108 1698265207.726000
+Z42 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/maquina_de_refrigerante.vhd|
+Z43 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/maquina_de_refrigerante.vhd|
+R10
+R11
+!s100 HhT5ooNbGNg[zzXT;20UG3
+!i10b 1
+Asoda_machine
+R14
+R1
+R2
+DEx4 work 23 maquina_de_refrigerante 0 22 mE<n9=FZHU@HK=AUd1S:^3
+l93
+L31
+VD^Wg[=zB_@eEWe9SS@d3h3
+R6
+32
+R41
+R42
+R43
+R10
+R11
+!s100 `625J@<FlLB@aCEIF:fV:2
+!i10b 1
+Emux
+Z44 w1698181436
+R1
+R2
+R3
+Z45 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Mux.vhd
+Z46 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Mux.vhd
+l0
+L4
+VMf6jnGzB<zX3ANf2LZQz13
+R6
+32
+Z47 !s108 1698265207.760000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Mux.vhd|
+Z49 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Mux.vhd|
+R10
+R11
+!s100 BMb?A:?Kod?ke]jBo>CPE3
+!i10b 1
+Abehavioral
+R1
+R2
+DEx4 work 3 mux 0 22 Mf6jnGzB<zX3ANf2LZQz13
+l16
+L15
+VIVVZB3;WD0K`hE;e?Q9AG2
+R6
+32
+R47
+R48
+R49
+R10
+R11
+!s100 I_`1hgP5W9=6[K<ejgQH80
+!i10b 1
+Eregistrador_1_bit
+w1698234748
+R1
+R2
+R3
+8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_1_bit.vhd
+FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_1_bit.vhd
+l0
+L4
+Va@`Pf1C@7_nKE1?U_0RO`3
+R6
+32
+R10
+R11
+!s100 4<2@NzGd7^:hda9N`G`bb2
+!i10b 1
+!s108 1698260823.818000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_1_bit.vhd|
+!s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_1_bit.vhd|
+Eregistrador_2_bits
+Z50 w1698175522
+R1
+R2
+R3
+Z51 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_2_bits.vhd
+Z52 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_2_bits.vhd
+l0
+L4
+V^840b>I`LY8X2z4WUQn9=1
+R6
+32
+Z53 !s108 1698265207.794000
+Z54 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_2_bits.vhd|
+Z55 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_2_bits.vhd|
+R10
+R11
+!s100 HMnWFcgA=XNYWzA3141ni0
+!i10b 1
+Amain
+R1
+R2
+DEx4 work 18 registrador_2_bits 0 22 ^840b>I`LY8X2z4WUQn9=1
+l17
+L16
+V`SV^XRH<lA8ULE=hi<V^o0
+R6
+32
+R53
+R54
+R55
+R10
+R11
+!s100 9dAkOB]_h1kl1F]=1Yl0E3
+!i10b 1
+Eregistrador_8
+Z56 w1698167942
+R1
+R2
+R3
+Z57 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8.vhd
+Z58 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8.vhd
+l0
+L5
+VXbaGjEc9QbIKUgD:^a_BD3
+R6
+32
+Z59 !s108 1698265207.825000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8.vhd|
+Z61 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8.vhd|
+R10
+R11
+!s100 5`A<FJFm_C24cF?QOEfCh2
+!i10b 1
+Abehavior
+R1
+R2
+DEx4 work 13 registrador_8 0 22 XbaGjEc9QbIKUgD:^a_BD3
+l19
+L16
+V1=4fXJSGinV1_?ii58Zog3
+R6
+32
+R59
+R60
+R61
+R10
+R11
+!s100 ?JK<;g^RYZ`XYc]78ZTiO1
+!i10b 1
+Eregistrador_8_bits
+Z62 w1698169404
+R1
+R2
+R3
+Z63 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8_bits.vhd
+Z64 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8_bits.vhd
+l0
+L4
+VVW5fl6>kBFS^5UcaG13aX3
+R6
+32
+Z65 !s108 1698265207.857000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8_bits.vhd|
+Z67 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/registrador_8_bits.vhd|
+R10
+R11
+!s100 :ZnMhfaUIhXUEPeMGd?=^3
+!i10b 1
+Amain
+R1
+R2
+DEx4 work 18 registrador_8_bits 0 22 VW5fl6>kBFS^5UcaG13aX3
+l17
+L16
+VP=zA?=2UKdEOM:^Sinf5:1
+R6
+32
+R65
+R66
+R67
+R10
+R11
+!s100 Tg`1X``;ej`Voo2Mez]VX0
+!i10b 1
+Esomador
+Z68 w1698168594
+R14
+R1
+R2
+R3
+Z69 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Somador.vhd
+Z70 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Somador.vhd
+l0
+L5
+VaDiaQBc;^YGEKQeRBzaAF3
+R6
+32
+Z71 !s108 1698265207.890000
+Z72 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Somador.vhd|
+Z73 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Somador.vhd|
+R10
+R11
+!s100 8Io2IoBf];Vi`EXAJ4oNT2
+!i10b 1
+Artl
+R14
+R1
+R2
+DEx4 work 7 somador 0 22 aDiaQBc;^YGEKQeRBzaAF3
+l17
+L15
+V?>F_F3PoCl6?nc<1eU7=E1
+R6
+32
+R71
+R72
+R73
+R10
+R11
+!s100 :kC;0>[eO;j]KjW6=Z63K0
+!i10b 1
+Esubtrator
+Z74 w1698198988
+R14
+R1
+R2
+R3
+Z75 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Subtrator.vhd
+Z76 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Subtrator.vhd
+l0
+L5
+VFW1PgfB1dGQYElAZh=>U32
+R6
+32
+Z77 !s108 1698265207.924000
+Z78 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Subtrator.vhd|
+Z79 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/Subtrator.vhd|
+R10
+R11
+!s100 1Om1HGOHI^QQm]XEN5C;>0
+!i10b 1
+Artl
+R14
+R1
+R2
+DEx4 work 9 subtrator 0 22 FW1PgfB1dGQYElAZh=>U32
+l17
+L15
+V5OD1eTPDaD_fj^k3Y`gTe1
+!s100 QKac8eEidXJ<BR=efPXYd1
+R6
+32
+R77
+R78
+R79
+R10
+R11
+!i10b 1
+Etb_maquina_de_refrigerante
+Z80 w1698265159
+R14
+R1
+R2
+R3
+Z81 8C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/tb_maquina_de_refrigerante.vhd
+Z82 FC:/Users/Demop/OneDrive/Documentos/Maquina_Refri/tb_maquina_de_refrigerante.vhd
+l0
+L6
+VcRn[LaAfV6jIo=9mRfzcB2
+!s100 dG?nCb[7BV^8gka=CBP`g3
+R6
+32
+!i10b 1
+Z83 !s108 1698265207.958000
+Z84 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/tb_maquina_de_refrigerante.vhd|
+Z85 !s107 C:/Users/Demop/OneDrive/Documentos/Maquina_Refri/tb_maquina_de_refrigerante.vhd|
+R10
+R11
+Atestbench
+R14
+R1
+R2
+Z86 DEx4 work 26 tb_maquina_de_refrigerante 0 22 cRn[LaAfV6jIo=9mRfzcB2
+l37
+L9
+Vn;I>=l1V1cD58bk:OR7O92
+!s100 h1GH_868A;4LjJ3<d>FRj0
+R6
+32
+!i10b 1
+R83
+R84
+R85
+R10
+R11
